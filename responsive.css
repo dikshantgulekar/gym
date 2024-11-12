@@ -1,0 +1,98 @@
+@media only screen and (max-width:575px) {
+   
+    .header{
+        position:relative;
+    }
+    .header .navbar-toggler:focus{
+        border: none;
+        outline: none;
+        box-shadow:none;
+    } 
+
+    .nav_logo{
+        font-size: 25px;
+        color: #333;
+    }
+    .header_nav{
+        background-color: #fff;
+        text-align: center;
+        
+    }
+    .header_nav .nav-item{
+        display: block;
+    }
+    .header_nav .nav-link{
+        color: #333;
+        height: 50px;
+    }
+    .header_nav .menubtn{
+        margin-top:20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    /* header end */
+
+    /* video bg */
+    .overlay-text{
+        position: absolute;
+        text-align: center;
+        top:20%;
+        left:5%;
+    }
+    .overlay-text h1{
+        font-size: 90px;
+    }
+
+    /*  <!-- choose program start --> */
+
+.program_content{
+    padding: 0;
+}
+
+/*  */
+.banner2{
+    padding: 160px 0;
+}
+.begin-text{
+    position: absolute;
+    top:30%;
+}
+.begin-text p{
+    font-size: 15px;
+    padding:5px;
+}
+
+/*  */
+.first-class{
+    padding-left: 0;
+}
+
+/*  */
+.time{
+    padding: 100px 0px;
+}
+.time_content{
+    position: absolute;
+    left:0%;
+}
+.time_content p{
+    padding: 30px 0px;
+}
+.time-table table{
+    width: 100%;
+}
+.time-table td {
+    padding:10px;
+  }
+
+  /* expert  */
+  .expert{
+    margin-top: 30px;
+    width:100%;
+  }
+
+iframe{
+    width: 100%;
+}
+}

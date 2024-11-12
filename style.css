@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+   
+   
+}
+
+.gymbtn,.overlay-text  .gymbtn,.begin-text .gymbtn,.traniee_text .gymbtn,.viewbtn .gymbtn{
+    background-color: #ed563b;
+    color: #fff;
+    border-radius:0;
+}
+
+
+
+/* header */
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: 75px;
+    background-color:rgba(255,255,255,0.1);
+}
+.header .navbar{
+    background:  transparent !important;
+}
+.nav_logo{
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav_logo span{
+    color: #ed563b;
+}
+.nav_logo:hover{
+    color: #ed563b;
+}
+.header_nav .nav-item{
+    padding: 0 20px;
+}
+.header_nav .nav-link{
+   color: #fff;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+.header_nav .nav-link.active{
+    color: #ed563b;
+}
+.header_nav .menubtn{
+    background-color: #ed563b;
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  
+/* header end */
+/* video bg start */
+.training-img {
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.training-video{
+    min-width: 100%;
+    max-width: 100%;
+    min-height:100vh;
+    max-height:100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.training-img .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height:100%;
+    width: 100%;
+    background-color:rgba(35,45,57,0.8);
+}
+.overlay-text{
+    position: absolute;
+    text-align: center;
+    top:40%;
+    left: 15%;
+}
+.overlay-text h5{
+    text-transform: uppercase;
+color: #fff;
+font-weight: bold;
+}
+.overlay-text h1{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    }
+.overlay-text h1 span{
+        color: #ed563b;;
+    }
+
+/* video bg end */
+
+
+ /* <!-- choose program start -->*/
+  
+
+.program_content{
+    margin-top: 30px;
+    /* border: 1px solid #000; */
+    padding: 100px 300px;
+    text-align: center;
+}
+.program_content h2{
+   text-transform: uppercase;
+   font-weight: bold;
+   color: #333;
+}
+.program_content span{
+    color: #ed563b;
+}
+.program_content img{
+    margin-top: 10px;
+    margin: 30px;
+}
+.program_content p{
+    color: #a29797;
+}
+.features-text{
+    margin-top: 60px;
+}
+.features-text a{
+text-transform: uppercase;
+text-decoration: none;
+color: #ed563b;
+font-size: 13px;
+font-weight: bold;
+}
+.features-text p {
+    margin-bottom:5px;
+    font-size: 14px;
+    color: #a29797;
+}
+
+/*begin today start */
+.banner2{
+    margin-top: 100px;
+    padding: 200px 0px;
+    background-image: url(images/cta-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner2 .overlay2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height:100%;
+    width: 100%;
+    /* background-color:rgba(35,45,57,0.2); */
+}
+.begin-text{
+    position: absolute;
+    top:20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.begin-text h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+
+}
+.begin-text span{
+    color: #ed563b;
+}
+.begin-text p{
+    text-align: center;
+    padding:10px 200px;
+    color: #fff;
+}
+
+
+/*  begin today  end  */
+
+
+/* trainiiigg start */
+.trainee{
+   width: 100%;
+   margin: auto;
+}
+.traiee_img img{
+    border-radius: 10px;
+}
+.traniee_text h4{
+    margin: 20px 0;
+    font-weight: bold;
+}
+.traniee_text p{
+    color: #a29797;
+    font-size: 13px;
+}
+.first-class li{
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+}
+.first-class li a{
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    padding:25px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1 ) ;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.first-class .active{
+    color: #ed563b;
+}
+.first-class li a img{
+    text-align: center;
+}
+.first-class li a span{
+   margin-left: 20px;
+}
+.first-class .viewbtn a{
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+/*  */
+
+
+/* time table start */
+.banner3{
+    margin-top: 100px;
+    padding: 120px 0;
+    background-image: url('images/schedule-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.time{
+    /* border: 1px solid #000; */
+    padding:100px 300px 150px;
+    text-align: center;
+    position: relative;
+}
+.time_content{
+    position: absolute;
+    top: 1%;
+   left: 2%;
+}
+.time_content h2{
+   text-transform: uppercase;
+   font-weight: bold;
+   color: #fff;
+}
+
+.time_content p{
+    color: #fff;
+    padding: 30px 270px;
+}
+
+.time-table p{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+    /* border: 1px solid; */
+}
+.time-table p .active{
+    color: #ed563b;
+}
+.time-table span{
+    margin-left:5px;
+    margin-right:5px;
+}
+.time-table table{
+    width: 100%;
+}
+.time-table td {
+    color: #fff;
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 25%;
+    text-align: center;
+    padding: 30px 60px;
+  }
+
+  /*  expert trainer start */
+
+  .expert{
+    width: 90%;
+    display: inline-block;
+    padding:40px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2) ;
+    border-radius:5px;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  .expert_img img{
+    text-align: center;
+  }
+  .expert-text{
+    margin-top: 20px;
+  }
+  .expert-text h5{
+    color: #ed563b;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .expert-text p{
+    margin-top: 20px;
+    color: #a29797;
+  }
+  .expert-text ul{
+    display: flex;
+    padding-left: 0;
+  }
+  .expert-text ul li{
+    display: block;
+    width: 10%;
+  }
+  .expert-text ul li a i{
+    color: #333;
+  }
+
+
+  /*  */
+  .weight-lift{
+    margin-top: 100px;
+    padding: 100px 0px;
+    background-image: url('images/contact-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+ 
+ 
+ iframe{
+     width: 600px;
+     height: 700px;
+     padding-top: 100px;
+ }
+
+
+.weight-lift form{
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+    height: 100%;
+    padding:40px;
+}
+.weight-lift form input[type='text']{
+    margin-bottom: 30px;
+    width:100%;
+    border: 1px solid #d0aeae;
+    padding-left: 10px;
+    color: #666;
+}
+.weight-lift textarea{
+    width: 100%;
+    margin-top: 20px !important;
+    padding-left: 10px;
+}
+.weight-lift p{
+    margin-top: 20px !important;
+}
+
+.footer-text{
+    margin-top:50px;
+    text-align: center;
+}
+.footer-text span{
+    color: #ed563b;
+}
