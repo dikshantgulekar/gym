@@ -1,2 +1,2 @@
 # gym
-This is gym clone website using html5 , css3 and bootstrap
+This is gym clone website page using html5 , css3 and bootstrap
